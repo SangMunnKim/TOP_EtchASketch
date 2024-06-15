@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90vmin; /* 90% of the smaller viewport dimension */
+    height: 90vmin; /* 90% of the smaller viewport dimension */
+    border: 2px solid red;
+    box-sizing: border-box; /* Include the border in the size calculation */
+}
+
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.cell {
+    flex: 1;
+    border: 1px solid black;
+    box-sizing: border-box; /* Include the border in the size calculation */
+}
