@@ -4,8 +4,10 @@ html, body {
     height: 100%;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 .container {
@@ -13,7 +15,7 @@ html, body {
     flex-direction: column;
     width: 90vmin; /* 90% of the smaller viewport dimension */
     height: 90vmin; /* 90% of the smaller viewport dimension */
-    border: 2px solid red;
+    border: 10px dashed lightblue;
     box-sizing: border-box; /* Include the border in the size calculation */
 }
 
